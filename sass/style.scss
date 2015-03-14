@@ -1,0 +1,21 @@
+@import "compass/reset";
+@import "compass/css3"
+
+$font-blue: blue;
+$font-size: 4em;
+$font-weight: 700;
+
+html {
+    font-size:62.5%;
+	body {
+		width: 122em;
+		margin: 0 auto;
+		h1 {
+			text-align: center;
+			margin: 2em auto;
+			color: blue;
+			font-size: $font-size;
+			font-weight:$font-weight;
+		}
+	}
+}
