@@ -2,7 +2,7 @@
 @import "compass/reset";
 @import "compass/css3";
 
-$font-blue: blue;
+$font-color: red;
 $font-size: 4em;
 $font-weight: 700;
 
@@ -14,7 +14,7 @@ html {
 		h1 {
 			text-align: center;
 			margin: 2em auto;
-			color: blue;
+			color: $font-color;
 			font-size: $font-size;
 			font-weight:$font-weight;
 		}
